@@ -1,7 +1,7 @@
 # co_h2
 semiconductor sensor measurements of H2 and Propane
 
-All data available [here]https://cloud.mail.ru/public/4DbR/3tVK6mWZ7
+All data available [here](https://cloud.mail.ru/public/4DbR/3tVK6mWZ7)
 
 Read and explore data with [prepared jupyter notebook](https://github.com/Lcpssm/h2_propane/blob/main/data_cut.ipynb)
 
@@ -56,8 +56,8 @@ Each observation is represented by of pair of files:
 - `Gas List`: set gases labels;
 - `Gas Concentrations, ppm`: list of gas concentrations (corresponding to gas list) parts per million;
 - `Stage Duration, sec`: time in seconds from start of the experiment;
-   Let's check an example:
->     record 1: 
+   Let's check an example:<br><br>
+record 1: 
 `{`<br>
 `'Stage Num': 1,` - 1st session stage;<br>
 `'Gas List': ['CO', 'H2', 'NO2'],` - observed gases (*air*, because all gases concentrations are zeros);<br>
@@ -81,7 +81,7 @@ You could find examples of such files in root folder `./cut_experiment2` for sen
 
 There are 2 files for sensor R3:
 
-* file with gas concentrations: *cut_R3_dataY.csv* :
+#### file with gas concentrations: *cut_R3_dataY.csv* :
 
 |  | file_num | Stage Num | ObservId_local | CO | H2 |
 | :- | :- | :- | :- | :- | :- |
@@ -89,7 +89,7 @@ There are 2 files for sensor R3:
 | 3201 | 6.0 | 5.0 | 12.0 | 21.333333 | 0.0 |
 | 3202 | 6.0 | 5.0 | 13.0 | 21.333333 | 0.0 |
 | 3203 | 6.0 | 5.0 | 14.0 | 21.333333 | 0.0 |
-
+<br><br>
 > Columns description:
 - ` ` - empty column with row numbers of this file;
 - `file_num` - id of data file (the sequence number of the data file in the sorted list of filenames);
@@ -97,8 +97,8 @@ There are 2 files for sensor R3:
 - `ObservId_local` - the same as in raw data (see part 1);
 - `CO` & `H2` - columns with concentration of gases (ppm).
 
-
-* file with sensor responses: *cut_R3_dataX.csv* :
+<br><br>
+#### file with sensor responses: *cut_R3_dataX.csv* :
     
 |  | 0 | 1 | 2 | 3 | 4 | ... | 500 | 501 | 502 | 503 |
 | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- |
@@ -113,6 +113,6 @@ There are 2 files for sensor R3:
 
 
 # 3. References
->  *V. Krivetskiy, A. Efitorov, A. Arkhipenko, S. Vladimirova, M. Rumyantseva, S. Dolenko, A. Gaskov,
+>  V. Krivetskiy, A. Efitorov, A. Arkhipenko, S. Vladimirova, M. Rumyantseva, S. Dolenko, A. Gaskov,
 Selective detection of individual gases and CO/H2 mixture at low concentrations in air by single semiconductor metal oxide sensors working in dynamic temperature mode. Sensors and Actuators B: Chemical,
 V254 pp.502-513, 2018. https://doi.org/10.1016/j.snb.2017.07.100.
