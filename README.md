@@ -1,5 +1,5 @@
 # co_h2
-semiconductor sensor measurements of H2 and Propane
+Semiconductor sensor measurements of CO and H<sub>2</sub>
 
 All data available [here](https://cloud.mail.ru/public/4DbR/3tVK6mWZ7)
 
@@ -89,7 +89,8 @@ There are 2 files for sensor R3:
 | 3201 | 6.0 | 5.0 | 12.0 | 21.333333 | 0.0 |
 | 3202 | 6.0 | 5.0 | 13.0 | 21.333333 | 0.0 |
 | 3203 | 6.0 | 5.0 | 14.0 | 21.333333 | 0.0 |
-<br><br>
+
+<br>
 > Columns description:
 - ` ` - empty column with row numbers of this file;
 - `file_num` - id of data file (the sequence number of the data file in the sorted list of filenames);
@@ -97,7 +98,7 @@ There are 2 files for sensor R3:
 - `ObservId_local` - the same as in raw data (see part 1);
 - `CO` & `H2` - columns with concentration of gases (ppm).
 
-<br><br>
+<br><
 #### file with sensor responses: *cut_R3_dataX.csv* :
     
 |  | 0 | 1 | 2 | 3 | 4 | ... | 500 | 501 | 502 | 503 |
