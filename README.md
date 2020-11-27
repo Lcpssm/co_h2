@@ -57,7 +57,7 @@ Each observation is represented by of pair of files:
 - `Gas Concentrations, ppm`: list of gas concentrations (corresponding to gas list) parts per million;
 - `Stage Duration, sec`: time in seconds from start of the experiment;
 <br><br>
-The detailed explanation of config file example (represented above):<br>
+The detailed explanation of config file example `session_5-6_config.json`:<br>
 record 1: 
 `{`<br>
 `'Stage Num': 1,` - 1st session stage;<br>
