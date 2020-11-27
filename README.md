@@ -3,7 +3,7 @@ Semiconductor sensor measurements of CO and H<sub>2</sub>
 
 All data available [here](https://cloud.mail.ru/public/4DbR/3tVK6mWZ7)
 
-Read and explore data with [prepared jupyter notebook](https://github.com/Lcpssm/h2_propane/blob/main/data_cut.ipynb)
+Read and explore data with [prepared jupyter notebook](https://github.com/Lcpssm/co_h2/blob/main/data_cut.ipynb)
 
 
 # 0. Experiment
